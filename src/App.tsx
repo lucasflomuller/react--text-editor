@@ -3,7 +3,13 @@ import { SyncingEditor } from "./SyncingEditor";
 
 
 const App = () => {
-  return <SyncingEditor />
+  return (
+    <div>
+      <SyncingEditor />
+      <br />
+      <SyncingEditor />
+    </div>
+  )
 }
 
 export default App;
