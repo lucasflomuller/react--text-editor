@@ -17,6 +17,7 @@
     "react-scripts": "3.1.1",
     "slate": "^0.47.8",
     "slate-react": "^0.22.8",
+    "socket.io-client": "^2.2.0",
     "typescript": "3.6.2"
   },
   "scripts": {
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.32"
   }
 }
